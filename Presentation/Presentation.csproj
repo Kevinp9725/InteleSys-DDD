@@ -68,16 +68,142 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Test.cs">
+    <Compile Include="Forms\FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
+    <Compile Include="Forms\FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAverias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAverias.Designer.cs">
+      <DependentUpon>FrmAverias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCarrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCarrito.Designer.cs">
+      <DependentUpon>FrmCarrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmConfiguracionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmConfiguracionUsuarios.Designer.cs">
+      <DependentUpon>FrmConfiguracionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmIngresoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmIngresoUsuario.Designer.cs">
+      <DependentUpon>FrmIngresoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMantenimientoDetallado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMantenimientoDetallado.Designer.cs">
+      <DependentUpon>FrmMantenimientoDetallado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMantenimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMantenimientos.Designer.cs">
+      <DependentUpon>FrmMantenimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMenuAveria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMenuAveria.Designer.cs">
+      <DependentUpon>FrmMenuAveria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMenuConfiguracionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMenuConfiguracionUsuarios.Designer.cs">
+      <DependentUpon>FrmMenuConfiguracionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMenuInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMenuInventario.Designer.cs">
+      <DependentUpon>FrmMenuInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMenuMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMenuMantenimiento.Designer.cs">
+      <DependentUpon>FrmMenuMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMenuReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMenuReportes.Designer.cs">
+      <DependentUpon>FrmMenuReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Test.resx">
-      <DependentUpon>Test.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAverias.resx">
+      <DependentUpon>FrmAverias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCarrito.resx">
+      <DependentUpon>FrmCarrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmConfiguracionUsuarios.resx">
+      <DependentUpon>FrmConfiguracionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmIngresoUsuario.resx">
+      <DependentUpon>FrmIngresoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmInventario.resx">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMantenimientoDetallado.resx">
+      <DependentUpon>FrmMantenimientoDetallado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMantenimientos.resx">
+      <DependentUpon>FrmMantenimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMenuAveria.resx">
+      <DependentUpon>FrmMenuAveria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMenuConfiguracionUsuarios.resx">
+      <DependentUpon>FrmMenuConfiguracionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMenuInventario.resx">
+      <DependentUpon>FrmMenuInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMenuMantenimiento.resx">
+      <DependentUpon>FrmMenuMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMenuReportes.resx">
+      <DependentUpon>FrmMenuReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +214,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".editorconfig" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +238,54 @@
       <Project>{a4f6495d-9e65-41e6-9385-3d17a41242b7}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\Resources\img\add.png" />
+    <Content Include="Forms\Resources\img\agregar-archivo.png" />
+    <Content Include="Forms\Resources\img\agregar-usuario.png" />
+    <Content Include="Forms\Resources\img\agregar-usuario1.png" />
+    <Content Include="Forms\Resources\img\anadir-grupo.png" />
+    <Content Include="Forms\Resources\img\anadir-imagen.png" />
+    <Content Include="Forms\Resources\img\archivo %282%29.png" />
+    <Content Include="Forms\Resources\img\archivo.png" />
+    <Content Include="Forms\Resources\img\avatar.png" />
+    <Content Include="Forms\Resources\img\averiasAdd.png" />
+    <Content Include="Forms\Resources\img\boton-agregar.png" />
+    <Content Include="Forms\Resources\img\buscar.png" />
+    <Content Include="Forms\Resources\img\carrito-de-compras %282%29.png" />
+    <Content Include="Forms\Resources\img\carrito-de-compras.png" />
+    <Content Include="Forms\Resources\img\carrito-de-compras1.png" />
+    <Content Include="Forms\Resources\img\contrato.png" />
+    <Content Include="Forms\Resources\img\datos-de-busqueda.png" />
+    <Content Include="Forms\Resources\img\editar.png" />
+    <Content Include="Forms\Resources\img\eliminar-usuario.png" />
+    <Content Include="Forms\Resources\img\eliminar.png" />
+    <Content Include="Forms\Resources\img\enter.png" />
+    <Content Include="Forms\Resources\img\estadisticas.png" />
+    <Content Include="Forms\Resources\img\expediente-personal.png" />
+    <Content Include="Forms\Resources\img\hidePass.png" />
+    <Content Include="Forms\Resources\img\hombre.png" />
+    <Content Include="Forms\Resources\img\key-person.png" />
+    <Content Include="Forms\Resources\img\lista-de-variantes-de-busqueda.png" />
+    <Content Include="Forms\Resources\img\login.png" />
+    <Content Include="Forms\Resources\img\logoIntelident.png" />
+    <Content Include="Forms\Resources\img\lupa.png" />
+    <Content Include="Forms\Resources\img\mas.png" />
+    <Content Include="Forms\Resources\img\nuevo-usuario.png" />
+    <Content Include="Forms\Resources\img\pagina-blanca.png" />
+    <Content Include="Forms\Resources\img\profileFrank.png" />
+    <Content Include="Forms\Resources\img\user.png" />
+    <Content Include="Forms\Resources\img\userLogin.png" />
+    <Content Include="Forms\Resources\img\usrGray.png" />
+    <Content Include="Forms\Resources\img\usrRed.png" />
+    <Content Include="Forms\Resources\img\usuario %281%29.png" />
+    <Content Include="Forms\Resources\img\usuario-hombre.png" />
+    <Content Include="Forms\Resources\img\usuario.png" />
+    <Content Include="Forms\Resources\img\usuarioE %281%29.png" />
+    <Content Include="Forms\Resources\img\usuarioi %281%29.png" />
+    <Content Include="Forms\Resources\img\usuariop.png" />
+    <Content Include="Forms\Resources\img\usuarioX.png" />
+    <Content Include="Forms\Resources\img\viewPass.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
