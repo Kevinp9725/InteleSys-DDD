@@ -59,19 +59,26 @@ namespace DataAccess.Repositories
                 {
                     articuloId= Convert.ToInt32(item[0]),
                     serialNo=item[1].ToString(),
-                    precioCosto=(float)(item[2]),
-                    isv=(float)(item[3]),
-                    iva=(float)(item[4]),
-                    descripcion=item[5].ToString()
+                    precioCosto=float.Parse(item[2].ToString()),
+                    isv=float.Parse(item[3].ToString()),
+                    iva=float.Parse(item[4].ToString()),
+                    descripcion=item[5].ToString(),
+                    modeloId= Convert.ToInt32(item[6])
                     
                 });
+                
             }
+            
             return listPiezas;
         }
 
         public int Remove(int id)
         {
-            throw new NotImplementedException();
+            parameters = new List<SqlParameter>();
+            parameters.Add(new SqlParameter("@articuloId", id));
+
+            return ExecuteNonQuery(delete);
+
         }
     }
 }
